@@ -8,7 +8,7 @@ def wallis(n):
     else:
         for i in range(1, n):
             pi *= (4*pow(i, 2))/(4*pow(i, 2)-1)
-        return 2 * pi
+        return 3 * pi
 
 
 def monte_carlo():
