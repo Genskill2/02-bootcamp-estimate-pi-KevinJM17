@@ -7,7 +7,7 @@ def wallis(n):
         return 0
     else:
         for i in range(1, n+1):
-            pi *= (2*pow(i, 2))/(4*pow(i, 2)-1)
+            pi *= (4*pow(i, 2))/(4*pow(i, 2)-1)
         return 2 * pi
 
 
