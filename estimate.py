@@ -14,7 +14,7 @@ def wallis(n):
 
 def monte_carlo(n):
     count = 0
-    for i in range(n):
+    for _ in range(n):
         x = random.random()
         y = random.random()
         dist = math.sqrt(pow(x,2)+pow(y,2))
